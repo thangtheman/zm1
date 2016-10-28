@@ -1,0 +1,110 @@
+footer{
+    background: rgba(0,0,0,1);
+}
+.footer p{
+    font-size: 14px;
+}
+.footer{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    color: #bdbdbd;
+    justify-content: space-between;
+    height: auto;
+    line-height: 50px;
+}
+.footerLink a{
+    color: #bdbdbd;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 14px;
+}
+.footerLink a:first-child,
+.footerLink a:nth-child(3){
+    line-height: 20px;
+}
+.footerLink{
+    padding-right: 0px;
+}
+.copyRight{
+    padding-left: 0px;
+}
+.footerLink p{
+    display: inline-block;
+}
+@media screen and (max-width: 1144px)  {
+    .copyRight{
+        margin: auto;
+        padding-left:0;
+        width: 100%;
+        text-align: center;
+
+    }
+    .footerLink{
+        padding-right: 0px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .footerLink a{
+        display: inline-block;
+    }
+    .footerLink p{
+        display: inline-block;
+    }
+    .footer{
+        margin-right: auto;
+        margin-left: auto;
+        background: rgba(0,0,0,0.9);
+        display: block;
+        color: white;
+        height: auto;
+        line-height: 50px;
+    }
+
+}
+@media screen and (max-width: 1200px)  {
+    .copyRight{
+        margin: auto;
+        padding-left:0;
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+
+        display: block;
+
+    }
+    .footerLink{
+        width: 100%;
+        text-align: center;    }
+
+}
+
+/*Iphone 6+ = 414x736 */
+@media screen and (max-width: 767px) {
+    .footerLink a:first-child,
+    .footerLink a:nth-child(3){
+        border-right:none;
+        padding-right: 0px;
+        border-bottom: 1px solid #666666;
+        padding: 10px;
+    }
+    .footerLink a{
+        margin: auto;
+        padding-left:0;
+        width: 100%;
+        text-align: center;
+    }
+    .copyRight{
+        border-top: 1px solid #666666;
+        padding: 10px;
+        line-height: 20px;
+    }
+	.contact-email {
+	    border-top: 0px solid #666666;
+        padding: 0px;
+        line-height: auto;
+    }
+
+}

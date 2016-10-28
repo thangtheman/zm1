@@ -1,0 +1,31 @@
+
+.fa-2x {
+    font-size: 33px;
+    margin: auto;
+    padding-top: 10px;
+    margin-left: -15px;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 15px
+}
+p{
+    font-size: 36px;
+}
+a{
+    font-size: 16px;
+}

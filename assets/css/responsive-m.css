@@ -1,0 +1,398 @@
+/*Responsive Media Querries for Mobile*/
+
+/*Iphone 5 = 320x568 */
+@media screen and (max-width: 320px) {
+
+}
+
+/*Iphone 6 = 375x667 */
+@media screen and (max-width: 375px) {
+
+}
+
+
+/*Iphone 6+ = 414x736 */
+@media screen and (max-width: 767px) {
+    .boxNewsletter p{
+        text-align:center;
+    }
+    .titleWrapper{
+        width: 100% !important;
+    }
+    .boxNewsletter p:first-child{
+        padding: 0 20px;
+        line-height: 28px;
+        font-size: 24px;
+    }
+    a .facebook{
+        text-align:center;
+    }
+    .facebookLikeLogo {
+		margin-top:9px;
+        border-right: 1px solid white;
+        margin-left: -20px !important;
+    }
+    #newsletterInfo p {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .infoPadding{
+        padding-bottom: 20px;
+        min-height: 150px;
+    }
+    .slideInfo p {
+        padding: 10px 20px 40px 20px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px;
+        font-family: "museo-sans";
+    }
+    .slideInfo h1 {
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+        color: #E09231;
+        font-family: Museo;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .sectionTilte h1 {
+        font-family: Museo;
+        font-size: 24px;
+        line-height: 43px;
+		width: 100%;
+	    text-align: center;
+		margin-bottom:36px;
+    }
+    .schedule {
+        font-family:Museo;
+        font-size: 24px;
+		padding:5px 0px;
+    }
+    #newsletterFB {
+        width: 99%;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 3%;
+        transform: translate(0%,50%);
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .small-right {
+        top: 73%;
+    }
+    .small-left {
+        top: 73%;
+    }
+    #moviePosters [class^="col-"],#moviePlayerHP  [class*=" col-"] {
+        margin: 0px 0 25px 0 !important;
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+	#moviePosters .gridInfo { padding:10px;}
+    #moviePosters .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+	#newsletterHP { padding-top:10px; margin-top: 33px;
+    }
+    #newsletterHP2 [class^="col-"], #newsletterHP2 [class*=" col-"] {
+        width: 100%;
+    }
+    #moviePlayerHP .logo{
+        margin: 0 auto;
+        width: 200px;
+    }
+	input:focus,
+select:focus,
+textarea:focus,
+button:focus ,div {
+    outline: none;
+}
+#moviePosters a:hover .gridInfo { border:0px;}
+    #moviePlayerHP .playButtonHP{
+        margin: 0px auto;
+    }
+    .facebook{
+        margin: -12px;
+    }
+    .small-left{
+        left: 12px;    }
+    .small-right{
+        right: -25px;
+    }
+    table tr td:nth-child(2){
+        font-size: 16px;
+    }
+	.timeTable { margin-top:5px;}
+    .timeTable tbody tr td{
+        font-size: 11px !important;
+    }
+    .facebookText{
+        font-size: 14px;
+    }
+    .facebook .facebookText{
+        margin-top: 0px;
+    }
+    #newsletterFB2 a {
+        width: 90%;
+		height:62px;
+    }
+    .facebook {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0px 0px;
+    }
+	.facebookLogo{ margin-top:2px; margin-left:-40px !important;}
+    .facebookLike {
+        font-size: 20px;
+        margin-top: -25px;
+        margin-left: 0px;
+    }
+    .fb-like p{
+        font-size: 13px;
+    }
+    .purpleLine{
+        width: 100%;
+        height: 3px;
+        background-image:
+                linear-gradient(
+                        125deg,
+                        #000000,
+                        #5c349e 30%,
+                        #5c349e 70%,
+                        #000000 100% /* determines size */
+                );
+    }
+    #carouselHP .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .alignright {
+        float: left;
+    }
+    .modal-content [class^="col-"], .modal-content [class*=" col-"] {
+       width: 100%;
+        height: 100%;
+    }
+    .trigger{
+display: block;
+    text-align: center;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: -20px auto 0;
+    font-size: 16px;    }
+    .showHideTable{
+        display: none;
+    }
+    .sectionTilte {
+        color: #ffffff;
+        padding: 50px 0px 10px 0px;
+        margin: 0;
+    }
+    .tableMovieTitle{
+        font-size: 18px;
+        display: inline;
+
+    }
+    #newsletterHP2 .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .modal-open .modal {
+        width: 100% !important;
+        z-index: 99999999999999999999;
+    }
+    .modal.about h3, .modal.terms h3, .modal.privacy h3{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .closePos{
+        top:0;
+        right: 0;
+    }
+    .timeZone{
+        text-align: left;
+    }
+    #timeZone{
+        float: right;
+    }
+    .infoPad{
+        padding-left: 0!important;
+    }
+    #timeZone {
+        width: 180px;
+		margin-right:0;
+    }
+    .movieModalTitle {
+       margin-top: -13px;
+    }
+	.boxNewsletter { padding:25px 0;}
+	.timeZone img {
+    top: 58%;
+    right: 10px;
+    }
+    .fb-like {
+        padding: 0px 20px;
+    }
+    #newsletterInfo2 {
+        position: relative;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #moviePlayerHP .timer {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+		position:absolute;
+		bottom:-50px;
+    }
+    #moviePlayerHP .timer div {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 25px;
+        color: #fff;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        margin: 10px 10px 10px;
+        background: transparent;
+        border: 1px solid rgba(255,255,255,0.75);
+    }
+	#parent {
+		 -webkit-overflow-scrolling-x:touch;
+		}
+    #moviePlayerHP .timer div.secs {
+        margin-left: 4px;
+    }
+    #moviePlayerHP .timer div.mins {
+        margin-left: 1px;
+    }
+    #moviePlayerHP .timer div:after {
+        content: 'Semanas';
+        color: #fff;
+        bottom: -5px;
+        position: absolute;
+        font-size: 12px;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        padding: 10px 0 5px;
+        font-weight: 500;
+    }
+    #moviePlayerHP .timer div.days:after {
+        content: 'Días';
+        font-size: 12px;
+    }
+    #moviePlayerHP .timer div.hours:after {
+        content: 'Horas';
+        font-size: 12px;
+
+    }
+    #moviePlayerHP .timer div.mins:after {
+        content: 'Minutos';
+        font-size: 12px;
+
+    }
+    #moviePlayerHP .timer div.secs:after {
+        content: 'Segundos';
+        font-size: 12px;
+
+    }
+
+	#schedule tr th:first-child, #schedule tr td:first-child { width:80px;}
+	#schedule tr td:first-child p:first-child{ font-size: 36px !important; margin-left:-38px !important; margin-top:-2px !important; letter-spacing:-4px;}
+	#schedule tr td:first-child span{ font-size: 12px !important; top:20px !important; right:7px !important;}
+	#schedule tr td:first-child p:last-child{ font-size: 11px !important;  width:80px !important; margin-left:-6px;}
+    body, html {
+        overflow-x: hidden;
+    }
+    #homePageYoutubeVideo{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top:0;
+        transform: translateY(0);
+    }
+    .closevideo {
+        display: none !important;
+    }
+    .playButtonHP {
+        display: none;
+    }
+    #movingArrow{
+        display: none !important;
+    }
+    .schedule{
+        margin-top: 32px;
+    }
+    #timeZoneMobile, #datepicker{
+        width: 100% !important;
+		height:32px;
+		background:#000;
+		appearance: none;
+	    -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        padding: 5px 10px;
+		font-size:14px;
+		color:#fff !important;
+		font-weight:300;
+    }
+    #datepicker{
+        border-radius: 0;
+        color: white;
+        background-image: url(../img/core/calendar.png);
+        background-size: 20px 20px;
+        background-position: 98% 50%;
+        background-repeat: no-repeat;
+        background-color:black;
+    }
+	#zeeMundoMoviesPosterTableContainerMobile tbody tr:first-child { text-align:left; }
+	#zeeMundoMoviesPosterTableContainerMobile tbody tr:first-child .mountainTMobile,
+	#zeeMundoMoviesPosterTableContainerMobile tbody tr:first-child .pacificTMobile,
+	#zeeMundoMoviesPosterTableContainerMobile tbody tr:first-child .centralTMobile,
+	#zeeMundoMoviesPosterTableContainerMobile tbody tr:first-child .easterTMobile  { display:none; }
+	.test tr td:first-child { vertical-align:middle; border-right:1px solid #333;}
+	.test tr td { height:30px; border-top:1px solid #333; padding:5px;}
+	.test tr:first-child td { padding:10px 5px; font-size:18px;  }
+	#zeeMundoMoviesPosterTableContainerMobile table {     border: 1px solid #333;
+    border-bottom: 1px solid #333; }
+    .centered-content {
+        position: relative;
+        z-index: 10;
+        cursor: pointer;
+        width: 100%;
+    }
+    .homePageYoutubeVideo{
+        width: 100%;
+    }
+    #moviePlayerHP {
+        position: relative;
+        height: 100px !important;
+    }
+    #moviePlayerHP .logo {
+        margin: 20px auto;
+        width: 100px;
+    }
+    #newsletterHP{
+        background: url(../img/core/background/MoviePlayer_BG.jpg) no-repeat center top;
+        background-size: cover;
+    }
+    #newsletterInfo p{
+        margin-bottom: 30px;
+    }
+
+}

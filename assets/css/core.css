@@ -1,0 +1,11 @@
+@import url("bootstrap.min.css");
+@import  "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import url("typography.css");
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("slick.css");
+@import url("hp.css");
+@import url("table.css");
+@import url("responsive-t.css");
+@import url("responsive-m.css");

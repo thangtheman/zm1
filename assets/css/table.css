@@ -1,0 +1,201 @@
+#parent {
+    height: 500px;
+    width: 100%;
+    overflow: scroll;
+	margin-bottom:40px;
+}
+
+#schedule {
+    max-width: 100% !important;
+	border-collapse:inherit;
+    -webkit-overflow-scrolling: touch;
+}
+#schedule th tr td{
+    position: absolute !important;
+}
+#schedule td{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#444;
+    color:#444;
+    background-color:#F7FDFA;
+	border-bottom:0px;
+	border-right:0px;
+    -webkit-overflow-scrolling: touch;
+
+}
+#schedule th{
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    padding: 10px 20px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#444;
+    color:#fff;
+    background-color: #333333;
+    z-index: 2;
+	border-bottom:0px;
+	border-right:0px;
+}
+#schedule tr:nth-child(even) > td {
+    background-color: #222;
+    color: #cccccc;
+    text-align: center;
+		transition:all 0.25s ease;
+}
+#schedule tr:nth-child(odd) > td {
+    text-align: center;
+    background-color: black;
+    color: #cccccc;
+	transition:all 0.25s ease;
+}
+
+
+#schedule tr:nth-child(even) > td:hover, #schedule tr:nth-child(odd) > td:hover {
+	background: #ffad33;
+}
+
+#schedule tr:nth-child(even) > td:hover a, #schedule tr:nth-child(odd) > td:hover a {
+	color: #000;
+}
+
+
+#schedule tr > th {
+    text-align: center;
+}
+#schedule tr > td {
+    text-align: center;
+    height: 88px;
+}
+#schedule tr td:first-child{
+    display: block;
+    position: relative;
+    border-right: solid 2px;
+    color: #999999;
+    width: 135px;
+    border-bottom: 1px;
+    z-index: 2;
+}
+
+#schedule tr td:first-child, #schedule tr td:first-child p, #schedule tr td:first-child span{
+	color:#999 !important;
+	transition:color 0.25s ease;
+	}
+
+#schedule tr:hover td:first-child, #schedule tr:hover td:first-child p, #schedule tr:hover td:first-child span{
+	color:#fff !important;
+	}
+#schedule tr th:first-child{
+    width: 135px;
+    display: block;
+    position: absolute;
+    border-right: solid 2px;
+    color: #999999;
+}
+#schedule tr th:nth-child(2){
+    padding-left: 20px;
+
+}
+#schedule tr td:nth-child(2){
+    padding-left: 0px;
+}
+
+#schedule tbody tr:first-child{
+    padding-top: 50px;
+}
+#schedule a:hover{
+    color: white;
+}
+#schedule a{
+    color: #bdbdbd;
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 88px;
+    z-index: 1;
+	font-size:14px;
+}
+#schedule a span{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#schedule a:hover{
+    color: #FFFFFF;
+}
+
+#schedule .dateTime th{
+    background: transparent;
+    border: none;
+}
+#schedule .dateTime tr th:first-child {
+    width: 67px;
+    display: block;
+    position: relative;
+    border-right: solid 2px;
+    color: white;
+    border: none;
+    padding: 0;
+    margin-top: -7px;
+
+}
+#schedule .dateTime tr th:nth-child(2) {
+    padding-left: 0px;
+    margin-top: -10px;
+}
+#schedule .dateTime tr > th {
+    text-align: center;
+}
+#schedule .dateTime tr td:first-child {
+    border: none;
+    color: white;
+    width: 135px;
+    position: relative;
+}
+#schedule .dateTime tr:nth-child(even) > td {
+    background: transparent;
+}
+#schedule .dateTime tr:nth-child(odd) > td {
+    background: transparent;
+}
+table #schedule :before {
+    content: '';
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 100;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 1%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 );
+}
+
+.timeTable tr td{
+    font-size: 11px;
+    padding: 3px;
+    border: 1px solid #333;
+}
+td a{
+    color: white;
+}
+.scheduleTableMobile tr td{
+height: 20px}
+.dayGenre{
+    color: #ffad33;
+}
